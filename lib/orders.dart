@@ -6,14 +6,12 @@ class Orders extends StatelessWidget {
       {Key? key,
       required this.orders,
       required this.totalPay,
-      required this.total,
       required this.name,
       required this.phone})
       : super(key: key);
 
   List orders = [];
   List totalPay = [];
-  double total = 0;
   String? name, phone;
 
   @override

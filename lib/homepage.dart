@@ -180,7 +180,6 @@ class _HomePageState extends State<HomePage>
                     builder: (context) => Orders(
                           orders: orders,
                           totalPay: pricesTotal,
-                          total: total,
                           name: name.text,
                           phone: num,
                         )));
